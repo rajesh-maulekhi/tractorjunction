@@ -1,0 +1,134 @@
+<?php
+$root = "http://" . $_SERVER['HTTP_HOST'];
+$root .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
+?>
+<style>
+@media (max-width:768px) {
+
+}
+.margBlog{display:none;}
+</style>
+<body class="mainCont">
+
+		<div class="mainCont">
+			<div class="container">
+
+			<div class="col-md-12 col-sm-12 col-xs-12 mainContBlog" style="float: left;margin-bottom: 2%;margin-top: 12%;">
+			<h2 class="page-title-review"><span><a style="color: #ac1212;" href="<?php echo $url; ?>">
+			<?php echo ucfirst($BrandName); ?>	<?php echo ucfirst($model_name); ?>  Classic Review 
+			
+			</a></span></h2>
+					<div class="col-md-8 col-sm-12 col-xs-12 mainContBlog" style="padding-left: 0px;">
+					
+						<?php  if(!empty($result)){ ?>
+					<?php $ii=1; foreach($result as $key=>$value){ 
+					if($ii !=1){
+					?>
+					<p class="margBlog"></p>
+					<?php } $ii++; ?>
+<div class="post_main mar20 col-md-12 col-sm-12 col-xs-12  paddingXZ indiviReview">
+<div class="col-xs-2 col-sm-2 col-md-2 paddingXZ rName" style="padding-top: 4px;">
+
+<div class="col-xs-12 col-sm-12 col-md-12 greenCir LDbadge">
+<h3>
+<?php 
+                                    echo substr(ucfirst(($value->user_name)), 0, 1) ;
+								?>
+								
+</h3>
+</div>
+</div>
+<div class="col-xs-10 col-sm-10 col-md-10 paddingXZ reviewXS PadSLR rDes">
+<p class="reviewON" style="color:#333;margin:0px;font-size:14px;font-weight:700" id="edit_box_7970">
+<?php echo ucfirst($value->user_name); ?>
+<span class="ratingaaa">
+<i class="fa fa-star-o" style="color:white;font-size: 13px;"> </i> 4.2</span>
+</p>	
+<div class="col-xs-12 col-sm-12 col-md-10 paddingZ">
+<p class="revContent" style="margin: 0px 0 5px;line-height: 18px;;" id="label_7970">
+<?php 
+echo strip_tags($value->reviewDes);?><br>
+</p>
+</div>
+<div class="col-xs-5 col-sm-4 col-md-2 paddingZ DateRev">
+<div class="upload-tym">
+<div class="upload-day"><?php echo date("d", strtotime($value->date_time)); ?></div>
+<div class="upload-date"><?php echo date("M", strtotime($value->date_time)); ?><br><?php echo date("Y", strtotime($value->date_time)); ?></div>
+</div>
+</div>
+
+</div>
+
+
+</div>
+						
+					<?php } ?>
+<?php }else{ ?>
+<div class="post_main mar20 MobileBlgNo" style="margin-top:0px;
+">
+					<h4 style="color:#DD4445;margin-top:20px;"> Review Not Found</h4>
+					</div>
+					<?php } ?>
+					       <div class="pagination" style="float:right; margin-top: 13px;">
+                    <ul class="pagination" style="margin:-4px 0px -23px 0px !important;">
+                        <?php echo $links; ?>
+                    </ul>
+                </div>
+					</div>
+						<div class="post_main col-md-4 col-sm-12 col-xs-12 mar20" style="padding: 20px;">
+					<div class="">
+					<h2 class="PopularTut"><span>Popular Tractor</span></h2>
+					<?php if(!empty($popular_result)){ ?>
+					<?php foreach($popular_result as $key1=>$value1){
+			$BrandName='Tractor Brand';$HP='';
+foreach(SelectQuery('name','brand','id',$value1->brand) as $ke=>$val) $BrandName= ucwords($val->name) ;
+foreach(SelectQuery('name','hp','id',$value1->hp) as $ke=>$val) $HP= ($val->name) ;
+
+					?>
+					<div class="col-md-12 col-sm-12 col-xs-12 PopDiv" style="    text-align: left;">
+					<img style="float: left;    border: 1px solid #eee;" src="<?php echo $root; ?>upload/<?php echo $value1->image; ?>" title="<?php echo $BrandName ?> <?php echo $value1->model_name; ?> tractor"  alt="<?php echo $BrandName ?> <?php echo $value1->model_name; ?> tractor" class="img-responsive"  width="72" height="72" border="0">
+					<a class="popular_a" href="<?php echo $root; ?>product/<?php echo $value1->id; ?>/<?php echo newslugend($BrandName)."-tractor"; ?>-<?php echo shweta_nameslug($value1->model_name); ?>" style="color: #DD4445;    padding-left: 7%;
+">
+					<?php echo ucfirst($BrandName); ?> <?php echo ucfirst($value1->model_name); ?></a>
+					</div>
+					<?php } ?>
+					<?php }else{ ?>
+					<h4 style="color:#DD4445;margin-top:40px;"> Tractor Not Found</h4>
+					<?php } ?>
+					</div>
+					
+
+
+
+					</div>
+							<div class="post_main col-md-4 col-sm-12 col-xs-12" style="padding: 20px;margin-top:20px;    float: right;">
+							<div class="">
+					<h2 class="PopularTut"><span>Join Us</span></h2>
+					 
+		 
+			 <div class="col-md-12 col-sm-12 col-xs-12 padw360" style="margin-top: 10px;">
+                    <div class="itemmG" style="background:#3B5998">
+                        <a title="Facebook" href="https://www.facebook.com/tractorjunction/" class="linkmF" target="_blank">
+                            <i class="fa fa-facebook" style="padding: 7px 18px;font-size:18px;color:#fff;"></i></a>
+                    </div>
+                    <div class="itemmT">
+                        <a title="Twitter" href="https://twitter.com/tractorjunction" class="linkmT" target="_blank" style="top:-2px;left:-11px;">
+                            <i class="fa fa-twitter" style="padding:7px 16px;font-size:18px;color:#fff;"></i></a>
+                    </div>
+                    <div class="itemmG">
+                        <a title="Google" href="https://plus.google.com/u/0/111375983648287404977?hl=en" class="linkmG" target="_blank">
+                            <i class="fa fa-google-plus" style="padding: 8px 17px;font-size:16px;color:#fff;"></i></a>
+                    </div>
+                    <div class="itemmF">
+                        <a title="Instagram" href="https://www.instagram.com/tractor_junction/" class="linkmF" target="_blank">
+                            <i class="fa fa-instagram" style="padding: 7px 18px;font-size:16px;color:#fff;"></i></a>
+                    </div>
+                </div>
+				 
+							</div>
+				</div>
+						
+					
+			</div>
+		</div>
+</body>

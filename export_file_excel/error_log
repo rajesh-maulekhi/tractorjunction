@@ -1,0 +1,10 @@
+[11-Mar-2016 09:14:17 UTC] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/wwwtractorjuncti/public_html/demo/export_file_excel/action.php on line 38
+[05-May-2016 09:31:53 UTC] PHP Fatal error:  Class 'PHPExcel_Settings' not found in /home/wwwtractorjuncti/public_html/export_file_excel/action.php on line 2
+[30-Mar-2018 17:20:03 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 531
+[30-Mar-2018 17:20:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 532
+[30-Mar-2018 17:21:11 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 532
+[30-Mar-2018 17:21:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 532
+[30-Mar-2018 17:21:30 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 532
+[30-Mar-2018 17:24:12 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 532
+[30-Mar-2018 17:25:39 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 72 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 531
+[30-Mar-2018 17:38:21 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 32 bytes) in /home/wwwtractor/public_html/export_file_excel/Classes/PHPExcel/Cell.php on line 146

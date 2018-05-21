@@ -1,0 +1,8 @@
+User-agent: *
+
+
+Disallow: /http://tractorjunction.com/admin
+Disallow: /http://tractorjunction.com/SortngProduct
+Disallow: /http://www.tractorjunction.com/test_site
+
+Sitemap: http://www.tractorjunction.com/sitemap.xml

@@ -1,0 +1,577 @@
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .newsTabHome{
+            margin: 0px;
+    padding: 0px !important;
+        padding: 0px !important;
+    border-left: none;
+    border-right: none;
+    border: 0px none !important;
+    }
+    .newsTabMainHome{margin: 0px !important;}
+    .viewNewsbtMain{margin-top: 0px !important;}
+    .newsSingleHOmePer{border: 1px solid #ddd;}
+    .singleNewsHome{
+    	padding: 0 !important;
+    }
+    .headingHomeMob{margin: 0px !important;}
+    .messyAdHome {
+        margin-top: 10px!important
+    }
+    .sideBarNav {
+        display: none!important
+    }
+    .brandtit {
+        display: none!important
+    }
+    .Disclaimer {
+        padding: 0 20px;
+        text-align: justify
+    }
+    .rDes {
+        width: 80%;
+        float: right;
+        padding-left: 22px
+    }
+    .revContent {
+        padding-right: 15px
+    }
+    .DateRev {
+        float: right;
+        margin-right: 9px
+    }
+    .bottomBar {
+        display: block!important
+    }
+    .sonalika_ad_desktop {
+        display: none!important
+    }
+    .sonalika_ad_mobile {
+        display: block!important
+    }
+    .RatCss {
+        margin-bottom: 51px!important
+    }
+    .Jhon_dheerDesk {
+        display: none
+    }
+    .Jhon_dheerMob {
+        display: block
+    }
+    .TachSpecADD {
+        height: auto!important;
+        margin-bottom: 10px
+    }
+    .OnRR {
+        margin-top: 0!important
+    }
+    .OnRoadPad {
+        padding: 0
+    }
+    .OnRoad2 {
+        margin-top: 60px!important
+    }
+    .tractbrandsHome img {
+        padding: 0
+    }
+    .tractbrandsHome p {
+        font-size: 11px;
+        padding: 0
+    }
+    .singleTract_adMobile {
+        display: block
+    }
+    .headingprofile {
+        text-align: center
+    }
+    .paddingZeioPx {
+        padding: 0
+    }
+    .navbar-nav {
+        height: 289px;
+        overflow-y: scroll;
+        overflow-x: hidden
+    }
+    .BrandIgMar {
+        margin: 0;
+        padding: 0;
+        margin-top: 8px;
+        margin-bottom: 6px
+    }
+    .iageP {
+        height: 44px
+    }
+    .marDearSear {
+        margin-top: 40px
+    }
+    #navbar-collapse-1 {
+        overflow-x: hidden
+    }
+    .LoginButCs {
+        float: none;
+        font-size: 13px!important;
+        border-radius: 3px
+    }
+    .displyNone {
+        display: none
+    }
+    .addOldTrHei {
+        height: auto
+    }
+    .SchHed {
+        text-align: center;
+        margin: 20px 0
+    }
+    .marfTOPBt {
+        margin-top: 12px!important
+    }
+    .BodrSingSV {
+        padding: 21px;
+        border: 0 none
+    }
+    .financeImageBanner {
+        width: unset;
+        height: unset
+    }
+    .DiplayNONe {
+        display: none
+    }
+    .postQuestionheading {
+        margin-top: 48%;
+        font-size: 19px;
+        line-height: 30px
+    }
+    .textQues {
+        width: 100%;
+        margin-bottom: 12px
+    }
+    .typeques {
+        margin-top: -7px
+    }
+    .PostQUE {
+        text-align: center;
+        margin: auto;
+        float: none;
+        margin-bottom: 20px
+    }
+    .QuestAG {
+        font-size: 14px;
+        text-align: justify
+    }
+    .textLeft {
+        text-align: center
+    }
+    .marPOSTbt {
+        margin-top: -8px
+    }
+    .BUttonQuestion {
+        margin-bottom: 15px
+    }
+    .LoginTexxt1 {
+        line-height: 28px;
+        font-size: 18px
+    }
+    .EditProfileBox {
+        position: unset;
+        margin: auto;
+        margin-top: auto;
+        width: 92%;
+        margin-top: 19px
+    }
+    .text22Login {
+        font-size: 12px;
+        margin-top: -16px;
+        padding-top: 0
+    }
+    .HIUser {
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+        font-size: 19px
+    }
+    .profileBanner {
+        margin-top: 146px!important
+    }
+    .OTPBOx {
+        width: 100%
+    }
+    .resendOTP {
+        float: right
+    }
+    .textcentrMob {
+        text-align: center;
+        padding: 8px 0
+    }
+    .eyeStyle {
+        text-align: right!important;
+        padding: 0 8px;
+        margin-bottom: 0
+    }
+    .BtHarvester {
+        margin: 4px 24px
+    }
+    .rentRea {
+        position: unset;
+        text-align: center;
+        float: right;
+        margin-top: 0
+    }
+    #result_tractor1,
+    #result_tractor2,
+    #result_tractor3,
+    .GrowBt,
+    .Growing,
+    .TractorDhkoText {
+        font-size: 31px;
+        line-height: 40px;
+        margin-bottom: 73px;
+        text-align: center
+    }
+    .margBlog {
+        margin-top: 60px;
+        display: block!important
+    }
+    .adBloKBlog {
+        display: none!important
+    }
+    .mar20 {
+        padding-top: 10px;
+        padding-bottom: 0;
+        margin-top: 23px
+    }
+    .MobileBlgNo {
+        height: 103px;
+        margin-top: 84px
+    }
+    .share-item {
+        float: right;
+        margin-bottom: 17px
+    }
+    .page-title {
+        font-size: 20px
+    }
+    .page-title-review {
+        font-size: 20px;
+        margin-top: 33%
+    }
+    .entry-content {
+        padding: 5px 18px;
+        text-align: left;
+        font-size: 14px;
+        line-height: 25px
+    }
+    .read-more {
+        width: 100%
+    }
+    .mainContBlog {
+        padding: 0
+    }
+    .quick {
+        float: left;
+        width: 50%
+    }
+    .TractVTRes {
+        float: left;
+        text-align: center;
+        margin: auto
+    }
+    .SelectHpCls {
+        margin-top: 9px
+    }
+    .SearchBoxHomePage {
+        padding: 12px 10px;
+        background: transparent;
+        box-shadow: 0 0 6px #F8F8F8
+    }
+    .marfTOP {
+        margin-top: 50px
+    }
+    .SearchRightTractror {
+        line-height: 33px;
+        color: #fff
+    }
+    .MarTopZ {
+        margin-top: 33px
+    }
+    .FloatRightRs {
+        float: right
+    }
+    .PaddingZRes {
+        padding: 0
+    }
+    .MatTopBt {
+        margin-top: -19px
+    }
+    .Singleorder {
+        display: none
+    }
+    .GrowingGreenText {
+        display: none
+    }
+    .advanceSearch {
+        margin: 11px 0 34px
+    }
+    .NewsSearchTitle {
+        margin: 19px 0;
+        text-align: center
+    }
+    .SingleNewsTitle {
+        line-height: 23px!important;
+        text-align: center
+    }
+    .CompareThird {
+        border-bottom: 1px solid #ddd
+    }
+    .ExpPriceOld {
+        font-size: 14px;
+        margin-left: 31px
+    }
+    .OldTractorSingle,
+    .TechSpecOld {
+        font-size: 18px;
+        text-align: center
+    }
+    .TechSpecOld {
+        margin: 33px 0 23px
+    }
+    .compareDemoBox .singleP_compare,
+    .sort-sortBy {
+        margin-bottom: 5px
+    }
+    .cityOldTractor {
+        padding: 0 0 0 30px
+    }
+    .AllRightS {
+        text-align: center;
+        width: 100%
+    }
+    .AllRightS2 {
+        padding-right: 10px
+    }
+    .MainSpec {
+        text-align: center;
+        color: #D63334;
+        line-height: 23px
+    }
+    .PopularTTabSngle {
+        display: none!important
+    }
+    .singleIUL {
+        text-align: center;
+        padding-top: 11px
+    }
+    #GetOnRoadPriceBT {
+        display: none
+    }
+    .NewsDescription p {
+        font-size: 15px;
+        text-align: justify;
+        line-height: 31px
+    }
+    .NwtsTitle {
+        text-align: center;
+        font-size: 15px!important;
+        line-height: 25px!important
+    }
+    .GetOnRoadPriceBTNew {
+        display: block
+    }
+    .singleAdv {
+        display: none
+    }
+    .TractorLabel {
+        text-align: center;
+        margin-bottom: 20px
+    }
+    .GrowBt,
+    .Growing {
+        text-align: center!important
+    }
+    .oldTractor_rent {
+        padding-left: 12px
+    }
+    .oldTractorPrice,
+    .oldTractorTitle {
+        font-size: 14px
+    }
+    .brandDir {
+        padding: 0 12px
+    }
+    .ImplementMenu {
+        display: none!important
+    }
+    .ads1 {
+        display: block
+    }
+    .tractorlogo_image {
+        width: 193px;
+        top: -17px
+    }
+    .slidCs {
+        margin-top: 104px
+    }
+    .text_dhko {
+        font-size: 21px;
+        padding-top: 47px
+    }
+    .SearchBoxHome {
+        width: 100%
+    }
+    .FindTr {
+        margin-top: 11px
+    }
+    .Growing {
+        margin-top: 30px
+    }
+    .CustHo {
+        margin-top: 10px
+    }
+    .popularTab {
+        padding-bottom: 26px!important
+    }
+    .BrandIMG {
+        padding-bottom: 0
+    }
+    .brands {
+        padding-bottom: 25px
+    }
+    .content_p {
+        font-size: 20px
+    }
+    .brandNameSite {
+        text-align: center
+    }
+    .usedTractDiv {
+        height: auto;
+        padding-bottom: 20px
+    }
+    .signleComp {
+        margin-bottom: 10px
+    }
+    .newsRes {
+        line-height: 25px
+    }
+    .tractor_tab {
+        border-left: none;
+    border-right: none;
+    }
+    .tractornes {
+        height: 154px;
+        margin-bottom: 11px
+    }
+    .titleNewsHOme {
+        text-align: center !important;
+        padding: 0px !important;
+        padding-top: 5px !important;
+    }
+    .titleNewsHOme a {
+      line-height: 20px !important;
+    }
+    .contNews {
+        text-align: left;
+        margin-top: 18px;
+        padding-left: 0
+    }
+    .tractorManinD {
+        padding: 0
+    }
+    .trImgDiv {
+        height: 100px
+    }
+    .contBrandName {
+        float: left;
+        width: 50%;
+        padding: 0 0 0 13px;
+        margin: 0
+    }
+    .ModelNameTra {
+        margin-top: 0
+    }
+    .HRCL {
+        margin: 0
+    }
+    .OutLines {
+        height: auto
+    }
+    .comp_btn1 {
+        bottom: 0
+    }
+    .brands_tag {
+        width: 100%
+    }
+    .overRes {
+        overflow: scroll;
+        height: 265px
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) and (orientation:landscape) {
+    .overRes {
+        overflow: scroll;
+        height: 170px
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) and (orientation:portrait) {
+    .overRes {
+        overflow: scroll;
+        height: 431px
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:640px) and (orientation:landscape) {
+    .overRes {
+        overflow: scroll;
+        height: 202px
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:1024px) and (orientation:portrait) {
+    #navbar-collapse-1 {
+        float: left;
+        font-size: 13px
+    }
+    .tractorlogo_image {
+        top: -39px;
+        left: 266px
+    }
+    .slidCs {
+        margin-top: 154px
+    }
+    .tractornes {
+        height: 395px
+    }
+    .newsSmall {
+        height: 91px
+    }
+    .contNews {
+        padding-left: 10px;
+        font-size: 11px;
+        margin-top: 0
+    }
+    .text_fom,
+    .text_overflow,
+    .tt:hover .text_overflow {
+        line-height: 11px;
+        font-size: 10px
+    }
+    .text_overflow {
+        padding-top: 10px;
+        padding-left: 5px
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:1024px) and (orientation:landscape) {
+    .contBrandName {
+        width: 52%
+    }
+    .HomeSlA1,
+    .slidCs {
+        margin-top: 0
+    }
+    .contNews {
+        padding-left: 5px
+    }
+    .tr {
+        height: 562px
+    }
+}
